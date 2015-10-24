@@ -60,10 +60,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'areafutbol',
-        'USER': 'root',
-        'PASSWORD': 'bitnami',
-        'HOST': 'localhost',
+        'HOST': '/opt/bitnami/mysql/tmp/mysql.sock',
         'PORT': '3306',
+        'USER': 'root',
+        'PASSWORD': 'bitnami'
     }
 }
 
